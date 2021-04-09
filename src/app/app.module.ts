@@ -11,9 +11,10 @@ import { CategoryComponent } from './components/category/category.component';
 import { NaviComponent } from './components/navi/navi.component';
 import { VatAddedPipe } from './pipes/vat-added.pipe';
 import { FilterPipePipe } from './pipes/filter-pipe.pipe';
+import { CartSummaryComponent } from './components/cart-summary/cart-summary.component';
 
 import {ToastrModule} from 'ngx-toastr';
-import { CartSummaryComponent } from './components/cart-summary/cart-summary.component';
+
 
 @NgModule({
   declarations: [
